@@ -1,13 +1,150 @@
-div{
-    background-color: pink;
-    height: 200px;
-    width: 400px;
+body{
+    background-color: black;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh;
+        margin: 0;
+}
+
+.container{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 30px grey; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    right: 11%;
+
+}
+
+#cl1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px aqua; 
+
+}
+
+#cl2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px green; 
+}
+
+#cl3{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px purple; 
+    
+}
+
+#cl4{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px darkcyan; 
+}
+
+img{
+    height: 90px;
+    width: 90px; 
+}
+
+.circle {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 80px; 
+    width: 80px; 
+    
+}
+
+.line1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 10px; 
+    width: 300px;
+    position: relative;
+    bottom: 20%;
+    left: 25%;
+    border-radius: 30px;
   }
-  
-  ul{
-      background-color: blue;
+
+  .line2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px; 
+    width: 300px;
+    position: relative;
+    top: 22%;
+    right: 34%;
+    border-radius: 30px;
   }
-  
-  li{
-      background-color: greenyellow;
+
+  #cl1{
+    margin: 5px;
   }
+
+  #cl3{
+    margin: 5px;
+  }
+
+  h1{
+    font-family: "Sixtyfour Convergence", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+  }
+
+  .simon{
+    position: relative;
+    bottom: 45%;
+    right: 5%;
+  }
+
+  .says{
+    position: relative;
+    bottom: 45%;
+   
+
+  }
+
+  .game{
+    position: relative;
+    bottom: 45%;
+    left: 5%;
+  }
+
+.textcontainer{
+    position: relative;
+    bottom: 45%;
+    display: flex;
+    left: 16%;
+
+
+}
+
+
+
+
+
+
+

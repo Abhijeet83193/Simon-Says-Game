@@ -3,17 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <title>Simon Says Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-   <div>
-    <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
+   <div class="textcontainer">
+    <div class="simon">
+        <h1>SIMON</h1>
+    </div>
+
+    <div class="says">
+        <h1>SAYS</h1>
+    </div>
+
+    <div class="game">
+        <h1>GAME</h1>
+    </div>
+
    </div>
-   <script src="app.js"></script>
+    <div class="container">
+        <div class="line1">
+            <div class="circle" id="cl1" type="button"><img src="red-eyes.jpg"></div>
+            <div class="circle" id="cl2" type="button"><img src="red-eyes.jpg"></div> 
+        </div>  
+        
+        <div class="line2">
+            <div class="circle" id="cl3" type="button"><img src="red-eyes.jpg"></div>
+            <div class="circle" id="cl4" type="button"><img src="red-eyes.jpg"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
